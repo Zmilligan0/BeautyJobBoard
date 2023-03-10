@@ -1,0 +1,141 @@
+body > header {
+    background-color: #222222;
+}
+#navbar {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+#ham-menu {
+    color: #a1a1a1;
+    border: 1px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+#ham-menu > svg {
+    width: 30px;
+    height: 30px;
+}
+.sign-in {
+    background-color: #408bd1;
+    height: 37.6px;
+    width: 97.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    padding-right: 2px;
+    margin-right: 1rem;
+}
+.sign-in > svg {
+    height: 18px;
+    width: 18px;
+    margin-right: 6px;
+}
+#snbtn1 {
+    display: flex;
+}
+#snbtn2 {
+    display: none;
+}
+#navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.15s ease-in-out;
+}
+#navbar-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#navbar-menu ul li {
+    height: 100%;
+}
+#navbar-menu li:hover {
+    background-color: #444;
+}
+#navbar-menu li a:not(.sign-in) {
+    width: 100%;
+    display: block;
+}
+#navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.25rem 0;
+}
+#navbar-menu.active-nav {
+    max-height: 150px;
+}
+@media (min-width: 992px) {
+    #ham-menu {
+        display: none;
+    }
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sign-in {
+        margin-right: 0;
+    }
+    #snbtn1 {
+        display: none;
+    }
+    #snbtn2 {
+        display: flex;
+    }
+    #navbar-menu {
+        max-height: unset;
+        overflow: unset;
+        transition: unset;
+    }
+    #navbar-menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    #navbar-menu li {
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header > div.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header > div > div:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+footer {
+    color: #fff;
+    background-color: #222222;
+}
+footer li a {
+    text-decoration: none;
+}
+.footer_widget ul li {
+    list-style: none;
+    display: block;
+}
+.footer_widget ul li a {
+    color: #fff;
+    font-size: 14px;
+}

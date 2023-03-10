@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twilio/sdk": "^6.43",
+        "stripe/stripe-php": "^9.8",
+        "wildbit/postmark-php": "^4.0"
+    }
+}

@@ -1,0 +1,38 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --dark-red: #951D22;
+    --light-red: #CD2027;
+    --light-red-hover: #B21D23;
+    --white: #FFFFFF;
+    --off-white: #F4F5F7;
+    --dark-grey: #222222;
+    --blue: #027BCE;
+    --blue-hover: #1B3768;
+}
+
+.form-group.required label::before {
+    color: red;
+    content: "*";
+    position: absolute;
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+select:hover {
+    cursor: pointer;
+}

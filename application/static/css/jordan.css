@@ -1,0 +1,138 @@
+body {
+    /* background-color: #F4F5F7; */
+    min-width: fit-content;
+}
+
+#connect-instagram {
+    min-height: 200px;
+    border: 1px solid #C8CACB;
+}
+
+/* #connect-instagram-button { */
+    /* margin-left: auto; */
+/* } */
+
+#cover-photo {
+    width: 100vw;
+    min-width: 100%;
+    height: 30vw;
+    min-height: 100px;
+}
+
+#profile-photo {
+    width: 168px;
+    min-width: 168px;
+    margin-top: 1.5rem;
+}
+
+#resume-one, #resume-two, #resume-three {
+    height: 100vh;
+    width: 100%;
+}
+
+.main-card {
+    background-color: #F4F5F7;
+}
+
+.secondary-card {
+    background-color: #F4F5F7;
+}
+
+.nav-item {
+    border-radius: 0 !important;
+}
+
+.my-nav-link {
+    background-color: #4088D1 !important;
+}
+
+.my-nav-link.active {
+    background-color: #F4F5F7 !important;
+}
+
+.my-nav-link:hover, .my-nav-link.active:hover {
+    background-color: #666666 !important;
+}
+
+/* p, h1, h2, h3, h4, h5 {
+    color: #2F2F2F;
+} */
+
+a {
+    text-decoration: none;
+}
+
+#bio-card, #social-card {
+    width: 95vw;
+}
+
+@media only screen and (max-width: 575px) {
+    #user-bio {
+        text-align: center;
+    }
+
+    #bio-card, #social-card {
+        min-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    #bio-card {
+        margin: auto;
+    }
+
+    #social-card {
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #bio-card, #social-card {
+        width: 516px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #bio-card, #social-card {
+        width: 696px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #bio-card, #social-card {
+        width: 936px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #cover-photo {
+        height: 360px;
+    }
+
+    #user-bio {
+        top: -48px;
+        left: calc(-2vw + (100vw - 1250px) / 2);
+        /* margin-top: 205px; */
+        margin-top: 270px;
+        position: absolute;
+        justify-content: start;
+    }
+
+    #bio-card {
+        width: 775px;
+    }
+
+    #social-card {
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #bio-card {
+        width: 900px;
+    }
+
+    #social-card {
+        width: 400px;
+    }
+}

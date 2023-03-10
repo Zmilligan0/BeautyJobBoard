@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+SetEnv HTTP_TWILIO_ACCOUNT_SID "key goes here"
+SetEnv HTTP_TWILIO_AUTH_TOKEN "key goes here"
+
+SetEnv HTTP_STRIPE_EPS "key goes here"
+SetEnv HTTP_STRIPE_API_KEY "key goes here"
+SetEnv HTTP_STRIPE_BASIC_CHARGE "key goes here"
+SetEnv HTTP_STRIPE_BOOST_3 "key goes here"
+SetEnv HTTP_STRIPE_BOOST_7 "key goes here"
+SetEnv HTTP_STRIPE_BOOST_30 "key goes here"
+SetEnv HTTP_HEREAPI_KEY "key goes here"
+
+SetEnv HTTP_POSTMARK_API_KEY "key goes here"

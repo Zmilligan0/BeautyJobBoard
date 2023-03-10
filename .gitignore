@@ -1,0 +1,17 @@
+# Visual Studio Code
+.vscode
+
+# MacOS Files
+.DS_Store
+
+# SCSS
+scss/
+*.scss
+*.sass
+*.css.map
+
+# Other
+config.js
+
+# Composer
+vendor/
